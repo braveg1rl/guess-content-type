@@ -1,5 +1,7 @@
 # guess-content-type [![Build Status](https://travis-ci.org/meryn/guess-content-type.png?branch=master)](https://travis-ci.org/meryn/guess-content-type) [![Dependency Status](https://david-dm.org/meryn/guess-content-type.png)](https://david-dm.org/meryn/guess-content-type)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/guess-content-type.svg)](https://greenkeeper.io/)
+
 Guesses (MIME) Content-Type (including charset) based on file name.
 
 This is based on [mime](https://github.com/broofa/node-mime) module, but has a more convenient interface if your goal is to explictly state that your content in text-based formats has UTF-8 encoding (which many editors have as output nowadays) . Without specifying a charset explicitly, most browsers will default to ISO-8859-1, or whatever the user preference is.
